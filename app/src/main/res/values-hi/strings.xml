@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">मेडी सजेस्टर</string>
+    <string name="symptom_checker">लक्षण चेकर</string>
+    <string name="medicines">दवाइयाँ</string>
+    <string name="lab_analyzer">लैब रिपोर्ट विश्लेषण</string>
+    <string name="reminders">रिमाइंडर</string>
+    <string name="records">हेल्थ रिकॉर्ड</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="language">भाषा</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="coming_soon">जल्द आने वाला है</string>
+    <string name="welcome_title">MediSuggester में आपका स्वागत है</string>
+    <string name="disclaimer">यह ऐप सामान्य स्वास्थ्य जानकारी देता है, निदान नहीं। आपातकाल में स्थानीय आपातकालीन सेवा को कॉल करें।</string>
+</resources>
