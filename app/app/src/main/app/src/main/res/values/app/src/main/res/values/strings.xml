@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MediSuggester</string>
+    <string name="symptom_checker">Symptom Checker</string>
+    <string name="medicines">Medicines</string>
+    <string name="lab_analyzer">Lab Analyzer</string>
+    <string name="reminders">Reminders</string>
+    <string name="records">Health Records</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="coming_soon">Coming soon in MVP</string>
+    <string name="welcome_title">Welcome to MediSuggester</string>
+    <string name="disclaimer">This app provides general health information, not a diagnosis. In emergencies, call local emergency services.</string>
+</resources>
