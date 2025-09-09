@@ -29,8 +29,12 @@ jobs:
 
       - name: Install SDK packages
         run: |
+          export PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH"
           yes | sdkmanager --licenses
           sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+
+      - name: Create local.properties (SDK path)
+        run: echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
 
       - name: Download Gradle 8.7
         run: |
@@ -44,6 +48,8 @@ jobs:
           chmod +x gradlew
 
       - name: Build debug APK
+        env:
+          JAVA_TOOL_OPTIONS: -Xmx3g
         run: |
           ./gradlew --version
           ./gradlew clean assembleDebug --stacktrace
